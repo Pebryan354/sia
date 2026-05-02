@@ -3,7 +3,7 @@ name: Deploy SIA INSTIPER ke GitHub Pages
 on:
   push:
     branches:
-      - main
+      - master
 
 # Menambahkan permissions secara global atau pastikan job deploy memilikinya
 permissions:
