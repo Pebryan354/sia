@@ -36,6 +36,7 @@ export default defineNuxtConfig({
   nitro: {
     preset: "github_pages",
     prerender: {
+      failOnError: false,
       routes: [
         "/",
         "/login",
@@ -47,6 +48,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+  ssr: false,
 
   modules: ["@nuxtjs/tailwindcss"],
 });
