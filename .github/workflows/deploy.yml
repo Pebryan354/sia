@@ -5,6 +5,12 @@ on:
     branches:
       - main
 
+# Menambahkan permissions secara global atau pastikan job deploy memilikinya
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +21,8 @@ jobs:
 
       - uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: "20"
+          cache: "npm" # Menambahkan cache agar instalasi berikutnya lebih cepat
 
       - run: npm install
 
@@ -24,13 +31,11 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
+          # Pastikan path ini sesuai dengan output Nuxt 3
           path: ./.output/public
 
   deploy:
     needs: build
-    permissions:
-      pages: write
-      id-token: write
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
