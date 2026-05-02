@@ -5,7 +5,7 @@ definePageMeta({
 });
 
 useHead({
-  title: "Login - SIA INSTIPER",
+  title: "Login - SIA UNIVERSITAS",
 });
 
 // State untuk form
@@ -34,7 +34,7 @@ const togglePassword = () => {
     <!-- Background Image with Overlay -->
     <div class="absolute inset-0 z-0 bg-surface-container-high/40">
       <img
-        alt="INSTIPER Campus Background"
+        alt="UNIVERSITAS Background"
         class="w-full h-full object-cover opacity-30 mix-blend-multiply"
         src="https://lh3.googleusercontent.com/aida-public/AB6AXuC1SYUAcNEOwnpGlpTd5hDxpx_mvvqqhgswiciQTCNqzjA2uWPs2eSfRG37DEwQBr2kWx-pDU2_ZpKtdNdjJS-0C7vEjdDzUgb3tkGQ3-z_fdKnoX8bsK92vsl1-E6PzebX1tv64TFILBveuFBg5ZOd-JOoMev_NqcTgRuiWRPK_XBEK4fQkjmuPR1TtHAKe0PVdCdu40sZAPiwkY6DR3DO_VxQGF9ZSk-4oPxK93yPvDM0q4_nhUXlGJCdP_ypgGwivUbUQPa9UQ"
       />
@@ -61,7 +61,7 @@ const togglePassword = () => {
         <h1
           class="font-h1 text-h1 text-primary text-center mb-2 tracking-tight"
         >
-          SIA INSTIPER
+          SIA UNIVERSITAS
         </h1>
         <p
           class="font-body-sm text-body-sm text-on-surface-variant text-center"

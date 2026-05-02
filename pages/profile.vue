@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Biodata - SIA INSTIPER",
+  title: "Biodata - SIA UNIVERSITAS",
 });
 
 // Data statis mahasiswa (nanti bisa diganti dari API)

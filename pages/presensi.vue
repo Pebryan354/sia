@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Presensi Mahasiswa - SIA INSTIPER",
+  title: "Presensi Mahasiswa - SIA UNIVERSITAS",
 });
 
 const attendanceDetails = [
@@ -318,7 +318,7 @@ const attendanceDetails = [
           Informasi Kelayakan Ujian Akhir
         </h4>
         <p class="text-body-sm text-on-surface-variant">
-          Sesuai dengan peraturan akademik INSTIPER, mahasiswa wajib memiliki
+          Sesuai dengan peraturan akademik UNIVERSITAS, mahasiswa wajib memiliki
           tingkat kehadiran minimal
           <span class="font-bold text-primary">75%</span> untuk dapat mengikuti
           Ujian Akhir Semester (UAS).

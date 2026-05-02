@@ -28,7 +28,7 @@ const mobileLinks = [
         <div
           class="text-xl font-bold tracking-tight text-emerald-900 dark:text-emerald-50"
         >
-          SIA INSTIPER
+          SIA Universitas
         </div>
         <div class="flex items-center gap-md">
           <div class="flex gap-base">

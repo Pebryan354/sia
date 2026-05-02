@@ -1,4 +1,4 @@
-name: Deploy SIA INSTIPER ke GitHub Pages
+name: Deploy SIA ke GitHub Pages
 
 on:
   push:

@@ -13,11 +13,11 @@ export default defineNuxtConfig({
       htmlAttrs: { lang: "id" },
       charset: "utf-8",
       viewport: "width=device-width, initial-scale=1",
-      title: "SIA INSTIPER",
+      title: "SIA UNIVERSITAS",
       meta: [
         {
           name: "description",
-          content: "Sistem Informasi Akademik - INSTIPER Yogyakarta",
+          content: "Sistem Informasi Akademik",
         },
       ],
       link: [

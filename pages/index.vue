@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Dashboard - SIA INSTIPER",
+  title: "Dashboard - SIA UNIVERSITAS",
 });
 
 const kpiStats = [

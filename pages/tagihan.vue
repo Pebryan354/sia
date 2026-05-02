@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "Tagihan & Pembayaran - SIA INSTIPER",
+  title: "Tagihan & Pembayaran - SIA UNIVERSITAS",
 });
 
 const transactions = [

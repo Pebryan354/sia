@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "KHS & Nilai - SIA INSTIPER",
+  title: "KHS & Nilai - SIA UNIVERSITAS",
 });
 
 const selectedSemester = ref("Semester Ganjil 2023/2024");

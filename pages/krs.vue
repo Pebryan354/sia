@@ -1,6 +1,6 @@
 <script setup>
 useHead({
-  title: "KRS Online - SIA INSTIPER",
+  title: "KRS Online - SIA UNIVERSITAS",
 });
 
 const courses = [
